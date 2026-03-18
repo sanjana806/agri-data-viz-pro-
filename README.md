@@ -1,27 +1,100 @@
-# 🌱 Crop Insight: Interactive Dark-Mode Dashboard
+# 🌾 Agri Data Viz Pro
 
-A high-performance data visualization tool built with **Python**, **Streamlit**, and **Plotly** to analyze soil nutrients and environmental factors for optimal crop recommendation.
+## 📌 Project Overview
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=Plotly&logoColor=white)
+Agri Data Viz Pro is a data analysis and interactive dashboard project focused on agricultural datasets. The goal is to extract meaningful insights and present them through clear, interactive visualizations.
 
-## 🌌 Overview
-This project provides an interactive, dark-themed interface to explore the **Crop Recommendation Dataset**. It helps users understand the correlation between Nitrogen (N), Phosphorus (P), Potassium (K), and environmental variables like Temperature, Rainfall, and pH levels.
-
-### **Key Features**
-* **Dynamic Filtering:** Compare specific crops side-by-side using the sidebar.
-* **Nutrient Profiling:** Bar and Box plots to visualize N-P-K requirements.
-* **Climate Analysis:** Scatter plots showing the relationship between Rainfall and Temperature.
-* **Correlation Heatmap:** Statistical analysis of how soil factors influence one another.
-* **Dark UI:** Optimized for high-contrast visibility and modern aesthetics.
+This project demonstrates practical skills in data analysis, data cleaning, and dashboard development.
 
 ---
 
-## 🚀 Getting Started
+## 🎯 Objectives
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/your-username/crop-insight-dark-dashboard.git](https://github.com/your-username/crop-insight-dark-dashboard.git)
-cd crop-insight-dark-dashboard<img width="1000" height="800" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/cabcbff5-ff59-49cd-9e5b-ba854f36dabb" />
+* Analyze agricultural data to identify trends and patterns
+* Build interactive visualizations for better understanding
+* Provide insights that can help in decision-making
 
+---
+
+## 📊 Features
+
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Interactive dashboard (filters, charts, comparisons)
+* Visual insights on crop patterns, yield, and conditions
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas
+* Matplotlib / Seaborn / Plotly
+* (Add Streamlit if you used it)
+
+---
+
+## 📁 Dataset
+
+* Dataset used: Crop Recommendation Dataset
+* Includes features like:
+
+  * Soil nutrients (N, P, K)
+  * Temperature
+  * Humidity
+  * pH
+  * Rainfall
+
+---
+
+## 📈 Key Insights
+
+(Add your real insights here — don’t leave this weak)
+
+Example:
+
+* Higher rainfall significantly impacts crop selection
+* Certain crops perform better under specific pH ranges
+* Temperature and humidity directly influence yield patterns
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+   ```
+   git clone https://github.com/sanjana806/agri-data-viz-pro-.git
+   ```
+
+2. Install dependencies
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the project
+
+   ```
+   python app.py
+   ```
+
+   or (if Streamlit)
+
+   ```
+   streamlit run app.py
+   ```
+
+---
+
+## 📌 Future Improvements
+
+* Add predictive models (ML integration)
+* Improve UI/UX of dashboard
+* Deploy the project online
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
